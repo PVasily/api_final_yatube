@@ -1,0 +1,36 @@
+
+admin3
+"refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY0OTc1NzYwNiwianRpIjoiYTZhY2YwMTdlMmE5NDA3OWExMTMzYTczOWNhMWQ1ZmMiLCJ1c2VyX2lkIjozfQ.G2cWZ7o0prMYhA0QQ8LQovzoKYeVJoogNrXQeUy1P6U",
+"access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ5OTE5MDY2LCJqdGkiOiI5NzFkY2Q5ZWQ5MGE0ZDZmODdlYjQyYjdlMDc0YTY0YiIsInVzZXJfaWQiOjV9.kcE0xcr21eNw3-tHZ4K6rwIcLE56wLU-i31GEbq0sMU"
+
+
+admin4
+"refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY0OTc1Nzc4NiwianRpIjoiZDg5MDI3MjJhZThlNDU4NDkwZmI4ZWIwMWVlODA2MDAiLCJ1c2VyX2lkIjo0fQ.bqReA6_HRKh0B3QY30nhwoLj4MIL4qmTDS2taxojXbk",
+"access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ5NzU3Nzg2LCJqdGkiOiI4NjQwNzVjODM4MmM0NzE5ODJlZWI2ZGNmZjUzYjBlNSIsInVzZXJfaWQiOjR9.5ktk7XZSAS_neSztzytDr1tGENC8awLQpJxtnR5XCF0"
+
+
+user
+"refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY0OTgzNzAyNywianRpIjoiYTg2Y2E4OTdjYjMwNDViOWIwZGNmZDg3OGI3MDgxOWMiLCJ1c2VyX2lkIjo1fQ.cjwIWPtCNnT1FA4HV1oZ5ijMrKJQcdVFe6VDjZwoW5s",
+"access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ5ODM3MDI3LCJqdGkiOiIwNzU5YzdiN2QxZGQ0NzRlOWQ1YjBkY2ZjMmE3ZDk2MSIsInVzZXJfaWQiOjV9.uZCrEztHjGaOxk0sUYyyKLj6PwU4aTJWo-LC0J7W4Qo"
+
+
+
+
+E       AssertionError: Проверьте, что при GET запросе на `/api/v1/posts/`
+        без пагинации, возвращается список
+E       assert <class 'dict'> == <class 'list'>
+E         +<class 'dict'>
+E         -<class 'list'>
+
+
+E       AssertionError: Проверьте, что при GET запросе на `/api/v1/posts/?limit=2&offset=2`
+        с пагинацией, возвращается словарь
+E       assert <class 'list'> == <class 'dict'>
+E         +<class 'list'>
+E         -<class 'dict'>
+
+
+
+
+
+
