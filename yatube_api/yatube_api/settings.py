@@ -35,7 +35,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'yatube_api.urls'
 
-TEMPLATES_DIR = os.path.join(BASE_DIR, 'api/api/templates')
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'api/templates/api')
 
 TEMPLATES = [
     {
